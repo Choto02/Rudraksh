@@ -1,0 +1,13 @@
+### Mentor Questa Sim
+source /usr/site/ece/bin/edacfg questa
+
+## Synopsys Design Compiler
+source /usr/site/ece/bin/edacfg syn-I-2013.12-SP4
+
+## Cadence NC-Verilog
+source /usr/site/ece/bin/edacfg incisiv
+alias  ncverilog    ncverilog +access+R
+alias  sv           simvision
+
+## Cadence Innovus
+source /package/eda/setup/edacfg  innovus181
